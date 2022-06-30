@@ -1,15 +1,61 @@
-# Binaries for programs and plugins
+
+###################### General ##################
+
+# -
+
+
+
+###################### OS generated #############
+
+########### Mac OS X
+*~
+._*
+__MACOSX
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+### jenv
+.java-version
+
+########### Windows
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+########### Linux
+# -
+
+
+
+###################### IDE configurations #######
+
+########### Visual Studio Code
+.vscode
+*.code-workspace
+
+########### JetBrains
+.idea
+
+
+
+###################### GoLang ###################
+
+########### Binaries
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# Test binary, built with `go test -c`
+########### Test binaries
 *.test
 
-# Output of the go coverage tool, specifically when used with LiteIDE
+########### Go coverage tool output
 *.out
 
-# Dependency directories (remove the comment below to include it)
+########### Dependency directories
 # vendor/
+
+########### Project specific
+# -
